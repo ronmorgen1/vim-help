@@ -1,0 +1,24 @@
+*vim-help* vim-help: Rons's cheat sheet of Vim stuff he always forget
+
+===============================================================================
+Contents ~
+
+    1. Normal Mode                                            |vim-help-normal|
+    2. Visual Mode                                            |vim-help-visual|
+    3. Insert Mode                                            |vim-help-insert|
+
+===============================================================================
+                                                              *vim-help-normal*
+Normal Mode ~
+
+===============================================================================
+                                                              *vim-help-visual*
+Visual Mode ~
+
+
+===============================================================================
+                                                              *vim-help-insert*
+Insert Mode ~
+
+
+vim: ft=help
