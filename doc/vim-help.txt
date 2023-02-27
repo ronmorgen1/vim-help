@@ -4,22 +4,18 @@
 Contents ~
 
     1. Normal Mode                                            |vim-help-normal|
-     1. General                                       |vim-help-normal-general|
-     2. Buffers                                       |vim-help-normal-buffers|
-     3. Windows                                        |vim-help-normal-window|
+     1. Buffers                                              |vim-help-buffers|
+     2. Windows                                              |vim-help-windows|
     2. Visual Mode                                            |vim-help-visual|
     3. Insert Mode                                            |vim-help-insert|
     4. Command Mode                                          |vim-help-command|
+    5. Plugins                                               |vim-help-plugins|
+     1. FZF                                                      |vim-help-fzf|
+     2. NERDTree                                            |vim-help-nerdtree|
 
 ===============================================================================
                                                               *vim-help-normal*
 Normal Mode ~
-
-Normal mode is the initial mode of the Vim editor. When you open a new file edit an existing one, it starts in normal mode by default
-
--------------------------------------------------------------------------------
-                                                      *vim-help-normal-general*
-General ~
 
     - H - Move the cursor to the beginning of the line
     - L - Move the cursor to the end of the line
@@ -31,7 +27,7 @@ General ~
     - <Leader> fs - Like ":write", but only write when the buffer has been modified
     - <Leader> u - Move half page up
     - <Leader> d - Move half page down
-    - <CR> (<Enter>) - Quick Command-line mode
+    - <CR> - Quick Command-line mode
     - <Leader> sc - Stop the highlighting for the search
     - <Leader> tp - Toggle paste mode
 
@@ -98,5 +94,25 @@ Command Mode ~
     - <C-a> - cursor to beginning of command-line
     - <C-e> - cursor to end  of command-line
     - <C-d> - Delete the character under the cursor (at end of line:  character before the cursor)
+
+===============================================================================
+                                                             *vim-help-plugins*
+Plugins ~
+
+-------------------------------------------------------------------------------
+                                                                 *vim-help-fzf*
+FZF ~
+
+    - <Leader> fw - Open windows
+    - <Leader> fb - Open buffers
+    - <Leader> fh - Buffers history
+    - <Leader> ff - Open files
+
+-------------------------------------------------------------------------------
+                                                            *vim-help-nerdtree*
+NERDTree ~
+
+    - <Leader> nf - Open side bar and foucus on current file
+    - <Leader> nt - Toggle nerdtree
 
 vim: ft=help
