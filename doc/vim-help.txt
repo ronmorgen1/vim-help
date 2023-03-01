@@ -27,9 +27,11 @@ Normal Mode ~
     - <Leader> fs - Like ":write", but only write when the buffer has been modified
     - <Leader> u - Move half page up
     - <Leader> d - Move half page down
-    - <CR> - Quick Command-line mode
     - <Leader> sc - Stop the highlighting for the search
     - <Leader> tp - Toggle paste mode
+    - <CR> - Quick Command-line mode
+    - <C-a> – Increment the next number on the line
+    - <C-x> – Decrement the next number on the line
 
 -------------------------------------------------------------------------------
                                                       *vim-help-normal-buffers*
@@ -80,6 +82,7 @@ Insert Mode ~
     - <C-k> - Cursor one line up
     - <C-b> - Cursor one character left
     - <C-f> - Cursor one character right
+    - <C-u> - Undo (Delete all characters before the cursor in the current line)
 
 ===============================================================================
                                                              *vim-help-command*
