@@ -43,6 +43,7 @@ Buffers ~
     - <Leader> bl - Go to last buffer in buffer list
     - <Leader> bd - Unload buffer and delete it from the buffer list
     - <Leader> bk - Wipe (delete) buffer. Everything related to the buffer is lost
+    - <Leader> bh - Delete hidden buffers
 
 -------------------------------------------------------------------------------
                                                       *vim-help-normal-windows*
